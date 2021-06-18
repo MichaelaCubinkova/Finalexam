@@ -378,15 +378,28 @@
   transform: translate(-50%, -50%);
 }
 
-.title{
-  font-family: 'Rum Raisin', sans-serif;
+.text{
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--white-color);
+}
+
+.title{
   font-size: 80px;
   letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+.rum{
+  font-family: 'Rum Raisin', sans-serif
+}
+
+.uge{
+  position: absolute;
+  top: 65%;
+  left: 60%;
 }
 
 /***** STYLESHEET ENDS ******/
