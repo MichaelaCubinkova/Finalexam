@@ -436,6 +436,11 @@
     top: 32%;
     font-size: 18px;
   }
+
+  .subtitle{
+    top: 42%;
+    font-size: 35px;
+  }
 }
 
 /*** TABLET ***/
@@ -453,6 +458,11 @@
   .uge{
     top: 36%;
     font-size: 21px;
+  }
+
+  .subtitle{
+    top: 45%;
+    font-size: 40px;
   }
 }
 
