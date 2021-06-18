@@ -353,7 +353,12 @@
 /***** RESET ENDS ******/
 
 /***** STYLESHEET STARTS ******/
-
+:root {
+  --primary: #464F60;
+  --secondary: #FFF0F1;
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
 .backphoto{
   position: relative;
   height: 100vh;
@@ -368,9 +373,20 @@
 
 .logo{
   position: absolute;
-  top: 0%;
-  align-items: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.title{
+  font-family: 'Rum Raisin', sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+  font-size: 80px;
+  letter-spacing: 3px;
 }
 
 /***** STYLESHEET ENDS ******/
