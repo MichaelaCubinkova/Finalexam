@@ -428,7 +428,7 @@
 
 ul{
   position: absolute;
-  left: 47%;
+  left: 44%;
   transform: translate(-50%, -50%);
   top: 48%;
 }
@@ -440,10 +440,28 @@ ul li{
 li{
   text-transform: uppercase;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 1px;
-  margin-top: 5px;
+  margin-top: 6px;
+}
+
+.sign{
+  color: var(--white-color);
+  font-family: gitan-latin, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sipka{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
 }
 
 /*** TABLET ***/
@@ -471,10 +489,20 @@ li{
 
   ul{
     top: 52%;
+    left: 47%;
   }
 
   li{
     font-size: 16px;
+  }
+
+  .sign{
+    font-size: 18px;
+    bottom: 4%;
+  }
+
+  .sipka{
+    width: 40px;
   }
 }
 
@@ -512,6 +540,15 @@ li{
 
   li{
     font-size: 19px;
+  }
+
+  .sign{
+    font-size: 18px;
+    bottom: 4%;
+  }
+
+  .sipka{
+    width: 40px;
   }
 }
 
