@@ -383,9 +383,10 @@
 
 .logo{
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 220px;
 }
 
 .text{
@@ -448,6 +449,10 @@ li{
 /*** TABLET ***/
 
 @media screen and (min-width: 604px) {
+
+  .logo{
+    width: 240px;
+  }
   
   .title{
     top: 25%;
@@ -479,6 +484,10 @@ li{
 /*** DESKTOP ***/
 
 @media screen and (min-width: 840px) {
+
+  .logo{
+    width: 260px;
+  }
 
   .title{
     top: 27%;
