@@ -427,7 +427,7 @@
 
 ul{
   position: absolute;
-  left: 50%;
+  left: 47%;
   transform: translate(-50%, -50%);
   top: 50%;
 }
@@ -484,6 +484,11 @@ li{
   .subtitle{
     top: 45%;
     font-size: 40px;
+  }
+
+  .ul{
+    top:80%;
+    font-size: 30px;
   }
 }
 
