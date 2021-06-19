@@ -429,7 +429,7 @@ ul{
   position: absolute;
   left: 47%;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 48%;
 }
 
 ul li{
@@ -439,9 +439,10 @@ ul li{
 li{
   text-transform: uppercase;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 1px;
+  margin-top: 5px;
 }
 
 /*** TABLET ***/
@@ -461,6 +462,14 @@ li{
   .subtitle{
     top: 42%;
     font-size: 35px;
+  }
+
+  ul{
+    top: 52%;
+  }
+
+  li{
+    font-size: 16px;
   }
 }
 
@@ -486,9 +495,14 @@ li{
     font-size: 40px;
   }
 
-  .ul{
-    top:80%;
+  ul{
+    left: 49%;
+    top: 55%;
     font-size: 30px;
+  }
+
+  li{
+    font-size: 19px;
   }
 }
 
