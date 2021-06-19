@@ -423,6 +423,27 @@
   font-size: 30px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+
+ul{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+li{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 1px;
+}
+
 /*** TABLET ***/
 
 @media screen and (min-width: 604px) {
