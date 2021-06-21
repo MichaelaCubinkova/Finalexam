@@ -472,14 +472,60 @@ li{
   width: 30px;
 }
 
+.buttons{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "block1 block2";
+  grid-gap: 20px;
+}
+
+.signup input.btn1 {
+  grid-area: block1;
+  background: #d1c1bb;
+  display: block;
+  margin:15px auto;
+  text-align: center;
+  border: none;
+  padding: 17px 34px;
+  outline: none;
+  color:white;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 22px;
+  font-family:'Rum Raisin', sans-serif ;
+
+}
+
+.signup input.btn2 {
+  grid-area: block2;
+  background: #d1c1bb;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  border: none;
+  padding: 17px 34px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 22px;
+  font-family:'Rum Raisin', sans-serif ;
+
+}
+.signup input:hover {
+  background: white;
+  color: #d1c1bb;
+}
+
 
 .container {
   width: 80%;
-  padding-top: 50px;
+  padding-top: 2px;
   padding-left: 40px;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .container .row100 {
@@ -512,7 +558,7 @@ li{
   outline: none;
   font-size: 16px;
   z-index: 1;
-  color:white;
+  color: white;
 }
 .container .row100 .inputBox .text {
   position: absolute;
@@ -521,6 +567,7 @@ li{
   line-height: 40px;
   font-size: 16px;
   font-family: 'Rum Raisin', sans-serif;
+  color:#d1c1bb;
   display: block;
   transition: 0.5s;
   pointer-events: none;
@@ -620,6 +667,161 @@ input:hover {
   .sipka{
     width: 40px;
   }
+
+  .buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "block1 block2";
+    grid-gap: 50px;
+  }
+  
+  .signup input.btn1 {
+    grid-area: block1;
+    background: #d1c1bb;
+    display: block;
+    margin:25px auto;
+    text-align: center;
+    border: none;
+    padding: 28px 56px;
+    outline: none;
+    color:white;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 30px;
+    font-family:'Rum Raisin', sans-serif ;
+  
+  }
+  
+  .signup input.btn2 {
+    grid-area: block2;
+    background: #d1c1bb;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: none;
+    padding: 28px 56px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 30px;
+    font-family:'Rum Raisin', sans-serif ;
+  
+  }
+  .signup input:hover {
+    background: white;
+    color: #d1c1bb;
+  }
+
+  .container {
+    width: 60%;
+    padding-top: 10px;
+    padding-left: 150px;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+  }
+
+  .container .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
+  }
+  .container .row100 .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+  
+  }
+  .container .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color:#d1c1bb;
+  }
+
+  .container .row100 .inputBox input,
+.container .row100 .inputBox.textarea textarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 27px;
+  z-index: 1;
+  color: white;
+}
+.container .row100 .inputBox .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 27px;
+  font-family: 'Rum Raisin', sans-serif;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus + .text, 
+.container .row100 .inputBox input:valid + .text {
+  top: -35px;
+}
+.container .row100 .inputBox .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background:#d1c1bb;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.container .row100 .inputBox input:focus ~ .line, 
+.container .row100 .inputBox input:valid ~ .line {
+  height: 100%;
+}
+.container .row100 .inputBox.textarea {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.container .row100 .inputBox.textarea textarea {
+  height: 100%;
+  resize: none;
+}
+.container .row100 .inputBox textarea:focus + .text, 
+.container .row100 .inputBox textarea:valid + .text {
+  top: -35px;
+  left: -10px;
+}
+.container .row100 .inputBox textarea:focus ~ .line, 
+.container .row100 .inputBox textarea:valid + .line {
+  height: 100%;
+}
+
+/*button*/
+input[type="submit"] {
+  border: none;
+  padding: 8px 37px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Rum Raisin', sans-serif;
+  background:#d1c1bb;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 12px;
+}
+input:hover {
+  background-color: #ffffff;
+  color:#d1c1bb;
+}
 }
 
 /*** TABLET ***/
@@ -666,6 +868,161 @@ input:hover {
   .sipka{
     width: 40px;
   }
+
+  .buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "block1 block2";
+    grid-gap: 50px;
+  }
+  
+  .signup input.btn1 {
+    grid-area: block1;
+    background: #d1c1bb;
+    display: block;
+    margin:25px auto;
+    text-align: center;
+    border: none;
+    padding: 28px 56px;
+    outline: none;
+    color:white;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 35px;
+    font-family:'Rum Raisin', sans-serif ;
+  
+  }
+  
+  .signup input.btn2 {
+    grid-area: block2;
+    background: #d1c1bb;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: none;
+    padding: 28px 56px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 35px;
+    font-family:'Rum Raisin', sans-serif ;
+  
+  }
+  .signup input:hover {
+    background: white;
+    color: #d1c1bb;
+  }
+
+  .container {
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 500px;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+
+  .container .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
+  }
+  .container .row100 .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+  
+  }
+  .container .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    color:#d1c1bb;
+  }
+
+  .container .row100 .inputBox input,
+.container .row100 .inputBox.textarea textarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  z-index: 1;
+  color: white;
+}
+.container .row100 .inputBox .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: 'Rum Raisin', sans-serif;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus + .text, 
+.container .row100 .inputBox input:valid + .text {
+  top: -35px;
+}
+.container .row100 .inputBox .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background:#d1c1bb;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.container .row100 .inputBox input:focus ~ .line, 
+.container .row100 .inputBox input:valid ~ .line {
+  height: 100%;
+}
+.container .row100 .inputBox.textarea {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.container .row100 .inputBox.textarea textarea {
+  height: 100%;
+  resize: none;
+}
+.container .row100 .inputBox textarea:focus + .text, 
+.container .row100 .inputBox textarea:valid + .text {
+  top: -35px;
+  left: -10px;
+}
+.container .row100 .inputBox textarea:focus ~ .line, 
+.container .row100 .inputBox textarea:valid + .line {
+  height: 100%;
+}
+
+/*button*/
+input[type="submit"] {
+  border: none;
+  padding: 10px 42px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Rum Raisin', sans-serif;
+  background:#d1c1bb;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 15px;
+}
+input:hover {
+  background-color: #ffffff;
+  color:#d1c1bb;
+}
 
 
 /*** DESKTOP ***/
