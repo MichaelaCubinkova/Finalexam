@@ -627,6 +627,26 @@ input:hover {
   color:#d1c1bb;
 }
 
+.findmore{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Rum Raisin', sans-serif ;
+}
+
+.facebook{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Alegreya Sans SC', sans-serif ;
+}
+
 /*** TABLET ***/
 
 @media screen and (min-width: 604px) {
@@ -821,6 +841,26 @@ input[type="submit"] {
 input:hover {
   background-color: #ffffff;
   color:#d1c1bb;
+}
+
+.findmore{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Rum Raisin', sans-serif ;
+}
+
+.facebook{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Alegreya Sans SC', sans-serif ;
 }
 }
 
@@ -1022,6 +1062,26 @@ input[type="submit"] {
 input:hover {
   background-color: #ffffff;
   color:#d1c1bb;
+}
+
+.findmore{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Rum Raisin', sans-serif ;
+}
+
+.facebook{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family:'Alegreya Sans SC', sans-serif ;
 }
 
 
