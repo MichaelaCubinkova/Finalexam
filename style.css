@@ -474,13 +474,13 @@ li{
 
 .imageblock {
   grid-area: block2;
-  position: relative;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+}
+
+.kidsphoto{
+  height: 100vh;
+  
 }
 
 /*-------------------------------------------------------------------SIGNUP FORM STARTS*/
