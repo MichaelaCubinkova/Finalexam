@@ -465,7 +465,7 @@ li{
 }
 
 .layout{
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "block1" 
@@ -473,7 +473,7 @@ li{
   grid-gap: 20px;
 }
 
-.imageblock{
+.imageblock {
   grid-area: block2;
   position: relative;
   height: 100vh;
