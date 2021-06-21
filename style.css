@@ -600,8 +600,31 @@ input:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+<<<<<<< HEAD
     grid-template-areas: "block1 block2";
   }
+=======
+    grid-template-areas: "block1 block2" ;
+  }
+
+  .signupblock {
+    grid-area: block2;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .imageblock {
+      grid-area: block1;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+>>>>>>> 5ea2f19a45f7679281ee93cd1fc6020660a7cedb
 }
 
 /*** DESKTOP ***/
