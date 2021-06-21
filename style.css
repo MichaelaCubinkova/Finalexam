@@ -470,7 +470,6 @@ li{
   grid-template-rows: auto;
   grid-template-areas: "block1" 
                        "block2";
-  grid-gap: 20px;
 }
 
 .imageblock {
@@ -485,8 +484,11 @@ li{
 }
 
 /*-------------------------------------------------------------------SIGNUP FORM STARTS*/
-.signup {
+.signupblock {
   grid-area: block1;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 /*button*/
@@ -592,6 +594,14 @@ input:hover {
 
   .sipka{
     width: 40px;
+  }
+
+  .layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "block1" 
+                         "block2";
   }
 }
 
