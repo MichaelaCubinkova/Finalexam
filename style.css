@@ -464,6 +464,49 @@ li{
   width: 30px;
 }
 
+.layout{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "block1" 
+                       "block2";
+  grid-gap: 20px;
+}
+
+.imageblock{
+  grid-area: block2;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*-------------------------------------------------------------------SIGNUP FORM STARTS*/
+.signup {
+  grid-area: block1;
+}
+
+/*button*/
+.input[type="submit"] {
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+  outline: none;
+  background: rgb(208, 195, 179);
+  color:white;
+  font-size: 18px;
+  border-radius: 50px;
+
+}
+input:hover {
+  background-color: rgb(160, 147, 132);
+  color: WHITE;
+}
+/*------------------------------------------------------------------------SIGNUP FORM ENDS*/
+
 /*** TABLET ***/
 
 @media screen and (min-width: 604px) {
