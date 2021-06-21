@@ -1,0 +1,294 @@
+
+
+
+/*-------------------------------------------------------------------CONTACT FORM STARTS*/
+.container {
+    width: 80%;
+    padding-top: 0px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
+}
+.container .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+
+}
+.container .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color:purple;
+}
+.container .row100 .inputBox input,
+.container .row100 .inputBox.textarea textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color:white;
+}
+.container .row100 .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.container .row100 .inputBox input:focus + .text, 
+.container .row100 .inputBox input:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+.container .row100 .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:pink;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.container .row100 .inputBox input:focus ~ .line, 
+.container .row100 .inputBox input:valid ~ .line {
+    height: 100%;
+}
+.container .row100 .inputBox.textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+.container .row100 .inputBox.textarea textarea {
+    height: 100%;
+    resize: none;
+}
+.container .row100 .inputBox textarea:focus + .text, 
+.container .row100 .inputBox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+.container .row100 .inputBox textarea:focus ~ .line, 
+.container .row100 .inputBox textarea:valid + .line {
+    height: 100%;
+}
+
+/*button*/
+input[type="submit"] {
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background:pink;
+    color:purple;
+    font-size: 18px;
+    border-radius: 50px;
+}
+input:hover {
+    background-color: purple;
+    color:pink;
+}
+/*------------------------------------------------------------------------CONTACT FORM ENDS*/
+
+/*--------------------------------------------------------------------SOCIAL MEDIA AND CONTACT SECTION STARTS*/
+
+h2 {
+    padding-top: 100px;
+    place-items: center;
+    width: 100%;
+    color:pink;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+@import url('https://kit.fontawesome.com/a076d05399.js');
+
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+
+
+.wrapper h2 {
+    width: 100%;
+    font-size: 36px;
+}
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 30px 5px;
+    overflow: hidden;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+    width: 170px;
+}
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon {
+    background: pink;
+}
+.wrapper .button:nth-child(2):hover .icon {
+    background: pink;
+}
+.wrapper .button:nth-child(3):hover .icon {
+    background: pink;
+}
+.wrapper .button:nth-last-child(1):hover .icon {
+    background: pink;
+}
+.wrapper .button:nth-last-child(2):hover .icon {
+    background: pink;
+}
+
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-right: 10px;
+}
+.wrapper .button:nth-child(1):hover span {
+    color: pink;
+}
+.wrapper .button:nth-child(2):hover span {
+    color: pink;
+}
+.wrapper .button:nth-child(3):hover span {
+    color: pink;
+}
+.wrapper .button:nth-child(4):hover span {
+    color: pink;
+}
+.wrapper .button:nth-last-child(1):hover span {
+    color: pink;
+}
+
+
+
+/*------------------------------------------------------------------SOCIAL MEDIA AND CONTACT SECTION ENDS*/
+
+/*--------------------------------------------------------------------MAP*/
+.map {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*-------------------------------------------------------------------------FOOTER*/
+.footul {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    
+  }
+  
+  
+  .footlogo {
+    font-family: streets;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+  
+  
+   
+  }
+  
+  .footp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: absolute;
+    margin-top: 80px;
+    text-align: center;
+   
+  }
+  
+  .lis{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  footer{
+    background-color: #a4bdff;
+    position: sticky;
+    padding: 5px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+    /* ========================================================================== */
+  /* Fonty */
+  /* ========================================================================== */
+  @font-face {
+    font-family: streets;
+    src: url(streets.woff);
+  }
+/*---------------------------------------------------------------------------MEDIA*/
+@media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+  
+    .header li a {
+      padding: 20px 30px;
+    }
+  
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+  
+    .header .menu-icon {
+      display: none;
+    }
+  
+
+}

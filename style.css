@@ -359,6 +359,13 @@
   --black-color: #000000;
   --white-color: #ffffff;
 }
+
+body{
+  background-color: #f4f4f4;
+  justify-content: center;
+  place-content: center;
+}
+
 .mainvideo {
   position: relative;
   height: 100vh;
@@ -424,6 +431,7 @@
   font-size: 30px;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
 
 ul{
@@ -463,51 +471,6 @@ li{
   transform: translate(-50%, -50%);
   width: 30px;
 }
-
-.layout{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "block1" 
-                       "block2";
-}
-
-.imageblock {
-  grid-area: block2;
-  height: 100vh;
-  width: 100vw;
-}
-
-.kidsphoto{
-  height: 100vh;
-  
-}
-
-/*-------------------------------------------------------------------SIGNUP FORM STARTS*/
-.signupblock {
-  grid-area: block1;
-  height: 100vh;
-  width: 100%;
-  background-color: #ffffff;
-}
-
-/*button*/
-.input[type="submit"] {
-  border: none;
-  padding: 7px 35px;
-  cursor: pointer;
-  outline: none;
-  background: rgb(208, 195, 179);
-  color:white;
-  font-size: 18px;
-  border-radius: 50px;
-
-}
-input:hover {
-  background-color: rgb(160, 147, 132);
-  color: WHITE;
-}
-/*------------------------------------------------------------------------SIGNUP FORM ENDS*/
 
 /*** TABLET ***/
 
@@ -596,16 +559,6 @@ input:hover {
     width: 40px;
   }
 
-  .layout{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "block1 block2";
-  }
-
-  .imageblock{
-    flex: 50%;
-  }
 
 /*** DESKTOP ***/
 
