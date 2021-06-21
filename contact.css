@@ -24,7 +24,7 @@
 .container .row100 .inputBox {
     position: relative;
     width: 100%;
-    height: 40px;
+    height: 32px;
     color:#d1c1bb;
 }
 .container .row100 .inputBox input,
@@ -36,7 +36,7 @@
     box-shadow: none;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 16px;
     z-index: 1;
     color:white;
 }
@@ -45,7 +45,8 @@
     top: 0;
     left: 0;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Rum Raisin', sans-serif;
     display: block;
     transition: 0.5s;
     pointer-events: none;
@@ -108,21 +109,18 @@ input:hover {
 /*--------------------------------------------------------------------SOCIAL MEDIA AND CONTACT SECTION STARTS*/
 
 h2 {
-    padding-top: 100px;
+    padding-top: 50px;
     place-items: center;
     width: 100%;
-    color:#d1c1bb;
-    font-size: 36px;
+    color: #d1c1bb;
+    font-size: 25px;
+    font-family: 'Rum Raisin', sans-serif;
     text-align: center;
     margin-bottom: 10px;
-
 }
 
 @import url('https://kit.fontawesome.com/a076d05399.js');
 
-html, body {
-    display: grid;
-}
 
 
 .wrapper h2 {
