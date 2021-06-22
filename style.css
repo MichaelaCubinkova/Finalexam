@@ -477,14 +477,13 @@ li{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: "block1 block2";
-  grid-gap: 20px;
+  
 }
 
 .signup input.btn1 {
   grid-area: block1;
   background: #d1c1bb;
   display: block;
-  margin:15px auto;
   text-align: center;
   border: none;
   padding: 17px 34px;
@@ -501,7 +500,6 @@ li{
   grid-area: block2;
   background: #d1c1bb;
   display: block;
-  margin: 15px auto;
   text-align: center;
   border: none;
   padding: 17px 34px;
@@ -631,7 +629,8 @@ input:hover {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  text-align: center;
+  font-size: 16px;
   letter-spacing: 3px;
   font-weight: lighter;
   font-family:'Rum Raisin', sans-serif ;
@@ -641,11 +640,19 @@ input:hover {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 3px;
   font-weight: lighter;
   font-family:'Alegreya Sans SC', sans-serif ;
+  padding-bottom: 30px;
 }
+
+a{
+
+  color: #000000;
+  text-decoration: none;
+
+} 
 
 /*** TABLET ***/
 
@@ -693,14 +700,12 @@ input:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "block1 block2";
-    grid-gap: 50px;
   }
   
   .signup input.btn1 {
     grid-area: block1;
     background: #d1c1bb;
     display: block;
-    margin:25px auto;
     text-align: center;
     border: none;
     padding: 28px 56px;
@@ -717,7 +722,6 @@ input:hover {
     grid-area: block2;
     background: #d1c1bb;
     display: block;
-    margin: 25px auto;
     text-align: center;
     border: none;
     padding: 28px 56px;
@@ -847,6 +851,7 @@ input:hover {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
   font-size: 25px;
   letter-spacing: 3px;
   font-weight: lighter;
@@ -861,6 +866,7 @@ input:hover {
   letter-spacing: 3px;
   font-weight: lighter;
   font-family:'Alegreya Sans SC', sans-serif ;
+  padding-bottom: 35px;
 }
 }
 
@@ -911,17 +917,16 @@ input:hover {
 
   .buttons{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "block1 block2";
-    grid-gap: 50px;
+    grid-template-areas: "block1 block2 block3 block4";
   }
   
   .signup input.btn1 {
-    grid-area: block1;
+    grid-area: block2;
     background: #d1c1bb;
     display: block;
-    margin:25px auto;
+    margin-left: 120px;
     text-align: center;
     border: none;
     padding: 28px 56px;
@@ -935,10 +940,10 @@ input:hover {
   }
   
   .signup input.btn2 {
-    grid-area: block2;
+    grid-area: block3;
     background: #d1c1bb;
     display: block;
-    margin: 25px auto;
+    margin-right: 120px;
     text-align: center;
     border: none;
     padding: 28px 56px;
@@ -1082,6 +1087,8 @@ input:hover {
   letter-spacing: 3px;
   font-weight: lighter;
   font-family:'Alegreya Sans SC', sans-serif ;
+  padding-bottom: 60px;
+}
 }
 
 
