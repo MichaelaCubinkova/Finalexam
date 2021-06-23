@@ -10,345 +10,375 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
-  
-  /* Sections
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
      ========================================================================== */
-  
-  /**
+
+/**
    * Remove the margin in all browsers.
    */
-  
-  body {
-    margin: 0;
-  }
-  
-  /**
+
+body {
+  margin: 0;
+}
+
+/**
    * Render the `main` element consistently in IE.
    */
-  
-  main {
-    display: block;
-  }
-  
-  /**
+
+main {
+  display: block;
+}
+
+/**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-  
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-  
-  /* Grouping content
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
      ========================================================================== */
-  
-  /**
+
+/**
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
-  
-  hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-  }
-  
-  /**
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-  
-  pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /* Text-level semantics
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
      ========================================================================== */
-  
-  /**
+
+/**
    * Remove the gray background on active links in IE 10.
    */
-  
-  a {
-    background-color: transparent;
-  }
-  
-  /**
+
+a {
+  background-color: transparent;
+}
+
+/**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
-  
-  abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-  }
-  
-  /**
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
-  
-  b,
-  strong {
-    font-weight: bolder;
-  }
-  
-  /**
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-  
-  code,
-  kbd,
-  samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /**
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
    * Add the correct font size in all browsers.
    */
-  
-  small {
-    font-size: 80%;
-  }
-  
-  /**
+
+small {
+  font-size: 80%;
+}
+
+/**
    * Prevent `sub` and `sup` elements from affecting the line height in
    * all browsers.
    */
-  
-  sub,
-  sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-  
-  sub {
-    bottom: -0.25em;
-  }
-  
-  sup {
-    top: -0.5em;
-  }
-  
-  /* Embedded content
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
      ========================================================================== */
-  
-  /**
+
+/**
    * Remove the border on images inside links in IE 10.
    */
-  
-  img {
-    border-style: none;
-  }
-  
-  /* Forms
+
+img {
+  border-style: none;
+}
+
+/* Forms
      ========================================================================== */
-  
-  /**
+
+/**
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
-  
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-  }
-  
-  /**
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
-  
-  button,
-  input { /* 1 */
-    overflow: visible;
-  }
-  
-  /**
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
-  
-  button,
-  select { /* 1 */
-    text-transform: none;
-  }
-  
-  /**
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
    * Correct the inability to style clickable types in iOS and Safari.
    */
-  
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
-  
-  /**
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
    * Remove the inner border and padding in Firefox.
    */
-  
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-  
-  /**
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
    * Restore the focus styles unset by the previous rule.
    */
-  
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
-  
-  /**
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
    * Correct the padding in Firefox.
    */
-  
-  fieldset {
-    padding: 0.35em 0.75em 0.625em;
-  }
-  
-  /**
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
    * 1. Correct the text wrapping in Edge and IE.
    * 2. Correct the color inheritance from `fieldset` elements in IE.
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
-  
-  legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
-  }
-  
-  /**
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
-  
-  progress {
-    vertical-align: baseline;
-  }
-  
-  /**
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
    * Remove the default vertical scrollbar in IE 10+.
    */
-  
-  textarea {
-    overflow: auto;
-  }
-  
-  /**
+
+textarea {
+  overflow: auto;
+}
+
+/**
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
    */
-  
-  [type="checkbox"],
-  [type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-  }
-  
-  /**
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
-  
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
-    height: auto;
-  }
-  
-  /**
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-  
-  [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
-  
-  /**
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
-  
-  [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-  
-  /**
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
-  
-  ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
-  }
-  
-  /* Interactive
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
      ========================================================================== */
-  
-  /*
+
+/*
    * Add the correct display in Edge, IE 10+, and Firefox.
    */
-  
-  details {
-    display: block;
-  }
-  
-  /*
+
+details {
+  display: block;
+}
+
+/*
    * Add the correct display in all browsers.
    */
-  
-  summary {
-    display: list-item;
-  }
-  
-  /* Misc
+
+summary {
+  display: list-item;
+}
+
+/* Misc
      ========================================================================== */
-  
-  /**
+
+/**
    * Add the correct display in IE 10+.
    */
-  
-  template {
-    display: none;
-  }
-  
-  /**
+
+template {
+  display: none;
+}
+
+/**
    * Add the correct display in IE 10.
    */
-  
-  [hidden] {
-    display: none;
-  }
+
+[hidden] {
+  display: none;
+}
 
 /***** RESET ENDS ******/
 
@@ -360,7 +390,7 @@
   --white-color: #ffffff;
 }
 
-body{
+body {
   background-color: #f4f4f4;
   justify-content: center;
   place-content: center;
@@ -388,7 +418,7 @@ body{
   transform: translate(-50%, -50%);
 }
 
-.logo{
+.logo {
   position: absolute;
   top: 12%;
   left: 50%;
@@ -396,11 +426,11 @@ body{
   width: 220px;
 }
 
-.text{
+.text {
   color: var(--white-color);
 }
 
-.title{
+.title {
   position: absolute;
   top: 22%;
   left: 50%;
@@ -410,11 +440,11 @@ body{
   font-weight: lighter;
 }
 
-.rum{
+.rum {
   font-family: 'Rum Raisin', sans-serif;
 }
 
-.uge{
+.uge {
   position: absolute;
   font-size: 15px;
   font-family: gitan-latin, sans-serif;
@@ -422,7 +452,7 @@ body{
   left: 50%;
 }
 
-.subtitle{
+.subtitle {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -434,18 +464,18 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
 
-ul{
+ul {
   position: absolute;
   left: 44%;
   transform: translate(-50%, -50%);
   top: 48%;
 }
 
-ul li{
+ul li {
   list-style-type: none;
 }
 
-li{
+li {
   text-transform: uppercase;
   text-align: center;
   font-size: 12px;
@@ -454,7 +484,7 @@ li{
   margin-top: 6px;
 }
 
-.sign{
+.sign {
   color: var(--white-color);
   font-family: gitan-latin, sans-serif;
   font-size: 13px;
@@ -464,7 +494,7 @@ li{
   transform: translate(-50%, -50%);
 }
 
-.sipka{
+.sipka {
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -472,12 +502,12 @@ li{
   width: 30px;
 }
 
-.buttons{
-  display:grid;
+.buttons {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: "block1 block2";
-  
+
 }
 
 .signup input.btn1 {
@@ -488,11 +518,11 @@ li{
   border: none;
   padding: 17px 34px;
   outline: none;
-  color:white;
+  color: white;
   transition: 0.25s;
   cursor: pointer;
   font-size: 22px;
-  font-family:'Rum Raisin', sans-serif ;
+  font-family: 'Rum Raisin', sans-serif;
 
 }
 
@@ -508,9 +538,10 @@ li{
   transition: 0.25s;
   cursor: pointer;
   font-size: 22px;
-  font-family:'Rum Raisin', sans-serif ;
+  font-family: 'Rum Raisin', sans-serif;
 
 }
+
 .signup input:hover {
   background: white;
   color: #d1c1bb;
@@ -530,8 +561,9 @@ li{
   position: relative;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
+  grid-template-columns: repeat (auto-fit, minmax(300px, 1fr));
 }
+
 .container .row100 .col {
   position: relative;
   width: 100%;
@@ -539,12 +571,14 @@ li{
   transition: 0.5s;
 
 }
+
 .container .row100 .inputBox {
   position: relative;
   width: 100%;
   height: 32px;
-  color:#d1c1bb;
+  color: #d1c1bb;
 }
+
 .container .row100 .inputBox input,
 .container .row100 .inputBox.textarea textarea {
   position: absolute;
@@ -558,6 +592,7 @@ li{
   z-index: 1;
   color: white;
 }
+
 .container .row100 .inputBox .text {
   position: absolute;
   top: 0;
@@ -565,46 +600,53 @@ li{
   line-height: 40px;
   font-size: 16px;
   font-family: 'Rum Raisin', sans-serif;
-  color:#d1c1bb;
+  color: #d1c1bb;
   display: block;
   transition: 0.5s;
   pointer-events: none;
 }
-.container .row100 .inputBox input:focus + .text, 
-.container .row100 .inputBox input:valid + .text {
+
+.container .row100 .inputBox input:focus+.text,
+.container .row100 .inputBox input:valid+.text {
   top: -35px;
 }
+
 .container .row100 .inputBox .line {
   position: absolute;
   bottom: 0;
   display: block;
   width: 100%;
   height: 2px;
-  background:#d1c1bb;
+  background: #d1c1bb;
   transition: 0.5s;
   border-radius: 2px;
   pointer-events: none;
 }
-.container .row100 .inputBox input:focus ~ .line, 
-.container .row100 .inputBox input:valid ~ .line {
+
+.container .row100 .inputBox input:focus~.line,
+.container .row100 .inputBox input:valid~.line {
   height: 100%;
 }
+
 .container .row100 .inputBox.textarea {
   position: relative;
   width: 100%;
   height: 100px;
 }
+
 .container .row100 .inputBox.textarea textarea {
   height: 100%;
   resize: none;
 }
-.container .row100 .inputBox textarea:focus + .text, 
-.container .row100 .inputBox textarea:valid + .text {
+
+.container .row100 .inputBox textarea:focus+.text,
+.container .row100 .inputBox textarea:valid+.text {
   top: -35px;
   left: -10px;
 }
-.container .row100 .inputBox textarea:focus ~ .line, 
-.container .row100 .inputBox textarea:valid + .line {
+
+.container .row100 .inputBox textarea:focus~.line,
+.container .row100 .inputBox textarea:valid+.line {
   height: 100%;
 }
 
@@ -615,17 +657,18 @@ input[type="submit"] {
   cursor: pointer;
   outline: none;
   font-family: 'Rum Raisin', sans-serif;
-  background:#d1c1bb;
+  background: #d1c1bb;
   color: #ffffff;
   font-size: 18px;
   border-radius: 10px;
 }
+
 input:hover {
   background-color: #ffffff;
-  color:#d1c1bb;
+  color: #d1c1bb;
 }
 
-.findmore{
+.findmore {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -633,75 +676,75 @@ input:hover {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: lighter;
-  font-family:'Rum Raisin', sans-serif ;
+  font-family: 'Rum Raisin', sans-serif;
 }
 
-.facebook{
+.facebook {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: lighter;
-  font-family:'Alegreya Sans SC', sans-serif ;
+  font-family: 'Alegreya Sans SC', sans-serif;
   padding-bottom: 30px;
 }
 
-a{
+a {
 
   color: #000000;
   text-decoration: none;
 
-} 
+}
 
 /*** TABLET ***/
 
 @media screen and (min-width: 604px) {
 
-  .logo{
+  .logo {
     width: 240px;
   }
-  
-  .title{
+
+  .title {
     top: 25%;
     font-size: 70px;
-  } 
+  }
 
-  .uge{
+  .uge {
     top: 32%;
     font-size: 18px;
   }
 
-  .subtitle{
+  .subtitle {
     top: 42%;
     font-size: 35px;
   }
 
-  ul{
+  ul {
     top: 52%;
     left: 47%;
   }
 
-  li{
+  li {
     font-size: 16px;
   }
 
-  .sign{
+  .sign {
     font-size: 18px;
     bottom: 4%;
   }
 
-  .sipka{
+  .sipka {
     width: 40px;
   }
 
-  .buttons{
-    display:grid;
+  .buttons {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "block1 block2";
   }
-  
+
   .signup input.btn1 {
     grid-area: block1;
     background: #d1c1bb;
@@ -710,14 +753,14 @@ a{
     border: none;
     padding: 28px 56px;
     outline: none;
-    color:white;
+    color: white;
     transition: 0.25s;
     cursor: pointer;
     font-size: 30px;
-    font-family:'Rum Raisin', sans-serif ;
-  
+    font-family: 'Rum Raisin', sans-serif;
+
   }
-  
+
   .signup input.btn2 {
     grid-area: block2;
     background: #d1c1bb;
@@ -730,9 +773,10 @@ a{
     transition: 0.25s;
     cursor: pointer;
     font-size: 30px;
-    font-family:'Rum Raisin', sans-serif ;
-  
+    font-family: 'Rum Raisin', sans-serif;
+
   }
+
   .signup input:hover {
     background: white;
     color: #d1c1bb;
@@ -747,127 +791,37 @@ a{
     min-height: 60vh;
   }
 
-  .container .row100 {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
-  }
-  .container .row100 .col {
-    position: relative;
-    width: 100%;
-    margin: 30px 0 10px;
-    transition: 0.5s;
-  
-  }
   .container .row100 .inputBox {
-    position: relative;
-    width: 100%;
     height: 40px;
-    color:#d1c1bb;
+  }
+
+  .container .row100 .inputBox .text {
+    line-height: 40px;
+    font-size: 30px;
   }
 
   .container .row100 .inputBox input,
-.container .row100 .inputBox.textarea textarea {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  font-size: 27px;
-  z-index: 1;
-  color: white;
-}
-.container .row100 .inputBox .text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 40px;
-  font-size: 27px;
-  font-family: 'Rum Raisin', sans-serif;
-  display: block;
-  transition: 0.5s;
-  pointer-events: none;
-}
+  .container .row100 .inputBox.textarea textarea {
+    font-size: 26px;
+  }
 
-.container .row100 .inputBox input:focus + .text, 
-.container .row100 .inputBox input:valid + .text {
-  top: -35px;
-}
-.container .row100 .inputBox .line {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background:#d1c1bb;
-  transition: 0.5s;
-  border-radius: 2px;
-  pointer-events: none;
-}
-.container .row100 .inputBox input:focus ~ .line, 
-.container .row100 .inputBox input:valid ~ .line {
-  height: 100%;
-}
-.container .row100 .inputBox.textarea {
-  position: relative;
-  width: 100%;
-  height: 100px;
-}
-.container .row100 .inputBox.textarea textarea {
-  height: 100%;
-  resize: none;
-}
-.container .row100 .inputBox textarea:focus + .text, 
-.container .row100 .inputBox textarea:valid + .text {
-  top: -35px;
-  left: -10px;
-}
-.container .row100 .inputBox textarea:focus ~ .line, 
-.container .row100 .inputBox textarea:valid + .line {
-  height: 100%;
-}
+  /*button*/
+  input[type="submit"] {
+    padding: 8px 37px;
+    font-size: 30px;
+    border-radius: 12px;
+  }
 
-/*button*/
-input[type="submit"] {
-  border: none;
-  padding: 8px 37px;
-  cursor: pointer;
-  outline: none;
-  font-family: 'Rum Raisin', sans-serif;
-  background:#d1c1bb;
-  color: #ffffff;
-  font-size: 30px;
-  border-radius: 12px;
-}
-input:hover {
-  background-color: #ffffff;
-  color:#d1c1bb;
-}
+  .findmore {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
 
-.findmore{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 25px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-family:'Rum Raisin', sans-serif ;
-}
-
-.facebook{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-family:'Alegreya Sans SC', sans-serif ;
-  padding-bottom: 35px;
-}
+  .facebook {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+  }
 }
 
 /*** TABLET ***/
@@ -877,51 +831,51 @@ input:hover {
 
 @media screen and (min-width: 840px) {
 
-  .logo{
+  .logo {
     width: 260px;
   }
 
-  .title{
+  .title {
     top: 27%;
     font-size: 90px;
   }
 
-  .uge{
+  .uge {
     top: 36%;
     font-size: 21px;
   }
 
-  .subtitle{
+  .subtitle {
     top: 45%;
     font-size: 40px;
   }
 
-  ul{
+  ul {
     left: 49%;
     top: 55%;
     font-size: 30px;
   }
 
-  li{
+  li {
     font-size: 19px;
   }
 
-  .sign{
+  .sign {
     font-size: 18px;
     bottom: 4%;
   }
 
-  .sipka{
+  .sipka {
     width: 40px;
   }
 
-  .buttons{
-    display:grid;
+  .buttons {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "block1 block2 block3 block4";
   }
-  
+
   .signup input.btn1 {
     grid-area: block2;
     background: #d1c1bb;
@@ -931,14 +885,14 @@ input:hover {
     border: none;
     padding: 28px 56px;
     outline: none;
-    color:white;
+    color: white;
     transition: 0.25s;
     cursor: pointer;
     font-size: 35px;
-    font-family:'Rum Raisin', sans-serif ;
-  
+    font-family: 'Rum Raisin', sans-serif;
+
   }
-  
+
   .signup input.btn2 {
     grid-area: block3;
     background: #d1c1bb;
@@ -952,9 +906,10 @@ input:hover {
     transition: 0.25s;
     cursor: pointer;
     font-size: 35px;
-    font-family:'Rum Raisin', sans-serif ;
-  
+    font-family: 'Rum Raisin', sans-serif;
+
   }
+
   .signup input:hover {
     background: white;
     color: #d1c1bb;
@@ -973,122 +928,62 @@ input:hover {
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat (auto-fit, minmax(300px, 1fr));
   }
-  .container .row100 .col {
-    position: relative;
-    width: 100%;
-    margin: 30px 0 10px;
-    transition: 0.5s;
-  
-  }
+
   .container .row100 .inputBox {
-    position: relative;
-    width: 100%;
     height: 47px;
-    color:#d1c1bb;
   }
 
   .container .row100 .inputBox input,
-.container .row100 .inputBox.textarea textarea {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  font-size: 30px;
-  z-index: 1;
-  color: white;
-}
-.container .row100 .inputBox .text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 40px;
-  font-size: 30px;
-  font-family: 'Rum Raisin', sans-serif;
-  display: block;
-  transition: 0.5s;
-  pointer-events: none;
-}
+  .container .row100 .inputBox.textarea textarea {
+    font-size: 28px;
+  }
 
-.container .row100 .inputBox input:focus + .text, 
-.container .row100 .inputBox input:valid + .text {
-  top: -35px;
-}
-.container .row100 .inputBox .line {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background:#d1c1bb;
-  transition: 0.5s;
-  border-radius: 2px;
-  pointer-events: none;
-}
-.container .row100 .inputBox input:focus ~ .line, 
-.container .row100 .inputBox input:valid ~ .line {
-  height: 100%;
-}
-.container .row100 .inputBox.textarea {
-  position: relative;
-  width: 100%;
-  height: 100px;
-}
-.container .row100 .inputBox.textarea textarea {
-  height: 100%;
-  resize: none;
-}
-.container .row100 .inputBox textarea:focus + .text, 
-.container .row100 .inputBox textarea:valid + .text {
-  top: -35px;
-  left: -10px;
-}
-.container .row100 .inputBox textarea:focus ~ .line, 
-.container .row100 .inputBox textarea:valid + .line {
-  height: 100%;
-}
+  .container .row100 .inputBox .text {
+    line-height: 40px;
+    font-size: 28px;
+  }
 
-/*button*/
-input[type="submit"] {
-  border: none;
-  padding: 10px 42px;
-  cursor: pointer;
-  outline: none;
-  font-family: 'Rum Raisin', sans-serif;
-  background:#d1c1bb;
-  color: #ffffff;
-  font-size: 30px;
-  border-radius: 15px;
-}
-input:hover {
-  background-color: #ffffff;
-  color:#d1c1bb;
-}
+  /*button*/
+  input[type="submit"] {
+    border: none;
+    padding: 10px 42px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Rum Raisin', sans-serif;
+    background: #d1c1bb;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 15px;
+  }
 
-.findmore{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-family:'Rum Raisin', sans-serif ;
-}
+  input:hover {
+    background-color: #ffffff;
+    color: #d1c1bb;
+  }
 
-.facebook{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-family:'Alegreya Sans SC', sans-serif ;
-  padding-bottom: 60px;
-}
+  .findmore {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 70px;
+    font-weight: lighter;
+    font-family: 'Rum Raisin', sans-serif;
+  }
+
+  .facebook {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-bottom: 50px;
+  }
 }
 
 
